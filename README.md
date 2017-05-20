@@ -14,14 +14,14 @@ These audios are thus suitable for mobile application developments.
 ### Project's structure
 All audios exist in both 64kbts and 18-abr-kbts versions, each spliting between HSK words, HSK single characters, and Chinese syllabs.
 
- * **/64k/** - optimal audio quality for voice recording.
+* **/64k/** - optimal audio quality for voice recording.
   * /64k/syllabs -- all chinese syllabs
   * /64k/hskzi/ -- HSK_2000, all zi
   * /64k/hsk/ -- HSK_2000, all words
- * **18k-abr** - files are optimized, ~3 times lighter, for 80% of the audio quality.
-  * /64k/syllabs -- all chinese syllabs
-  * /64k/hskzi/ -- HSK_2000, all zi
-  * /64k/hsk/ -- HSK_2000, all words
+* **18k-abr** - files are optimized, ~3 times lighter, for 80% of the audio quality.
+  * /18k-abr/syllabs -- all chinese syllabs
+  * /18k-abr/hskzi/ -- HSK_2000, all zi
+  * /18k-abr/hsk/ -- HSK_2000, all words
 
 ### Listing audios VS HSK2012 words
 The current database was build upon the official HSK 2000. The HSK 2000 is thus near fully covered (at least 8596 out of ~8800). Comparison with the last HSK 2012 words list is done via :
