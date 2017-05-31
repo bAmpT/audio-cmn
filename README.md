@@ -22,12 +22,12 @@ All audios exist in both 64kbts and 18-abr-kbts versions, each spliting between 
   * /18k-abr/hskzi/ -- HSK_2000, all zi (1,735)
   * /18k-abr/hsk/ -- HSK_2000, all words (6,863)
 
-### Listing audios VS HSK2012 words
-The current database was build upon the official HSK 2000. The HSK 2000 is thus near fully covered (at least 8596 out of ~8800). Comparison with the last HSK 2012 words list is done via :
+### Missing audios ?
+The current HSK audio database was build upon the official `HSK 2000`, published in 2000. The HSK 2000 is thus near fully covered (at least 8596 out of ~8800). List comparison with the last `HSK 2012` words list is available and done via :
 
 ```bash
-bash ./missing-audios.bash  HSK2012_all.txt  		# List missing audios, compared to input list of words
-bash ./missing-audios.bash --help                   # Tiny manual.
+bash ./missing-audios.bash  HSK2012_all.txt    # List missing audios, compared to input list of words
+bash ./missing-audios.bash --help              # Tiny manual
 ```
 
 Current difference: [582 HSK2012 words which are missing human audios](http://jsfiddle.net/fduyws3x/2/). See files in `./lists/` .
